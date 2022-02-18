@@ -12,8 +12,8 @@ class Block:
 
 class Blockchain:
     def __init__(self):
-     hashlast=hashgenrator ("gen_last")
-     hashstart=hashgenrator ("gen_hash")
+     hashlast=hashgenrator("gen_last")
+     hashstart=hashgenrator("gen_hash")
 
 
      genesis=Block('gen-data',hashstart,hashlast)
